@@ -20,7 +20,7 @@ btn-primary">Tambah</a>
                 </tr>
                 </thead>
                 <tbody>
-                @foreach ($toko as $no=>$tokos)
+                @foreach ($toko as $no=>$toko)
                     <tr>
                         <td>{{ $no + 1 }}</td>
                         <td>{{ $toko->nama }}</td>

@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Toko extends Model
 {
     protected $table="toko";
-    protected $fillable = ["nama", "alamat", "pemilik", "telepon","e-mail", "user_id", "pengguna_id"];
+    protected $fillable = ["nama", "alamat", "pemilik", "telepon","email", "user_id",'pengguna__id'];
 }

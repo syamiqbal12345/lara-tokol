@@ -14,8 +14,7 @@ class BuatTabelKatagori extends Migration
     public function up()
     {
         Schema::create('katagori', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->bigIncrements('id');
+            $table->bigIncrements('id');;
             $table->string("nama");
             $table->text("keterangan");
             $table->timestamps();

@@ -15,6 +15,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/login','SecurityController@login')->name('login');
+Route::post('/login','SecurityController@prosesLogin')->name('login.proses');
+
+Route::get('/registrasi', function () { return view('/users/create'); });
+
+Route::get('/logout', 'SecurityController@logout')->name('login');
+Route::get('/logout', 'SecurityController@logout');
 
 
 Route::get("/users", 'UserController@index')->name("users.index");
