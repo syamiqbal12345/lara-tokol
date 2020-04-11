@@ -20,7 +20,7 @@ class BuatTabelToko extends Migration
             $table->string("pemilik");
             $table->string("telepon");
             $table->string("e-mail");
-            $table->string("user_id");
+            $table->integer("user_id");
 
             $table->timestamps();
         });

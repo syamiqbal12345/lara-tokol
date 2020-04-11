@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+
 Route::get("/users", 'UserController@index')->name("users.index");
 
 Route::get("/users/create", 'UserController@create')->name("users.create");
@@ -26,3 +28,16 @@ Route::get("/users/{id}/edit", 'UserController@edit')->name("users.edit");
 Route::post("/users/{id}", 'UserController@update')->name("users.update");
 
 Route::get("/users/{id}/delete", 'UserController@delete')->name("users.delete");
+
+
+Route::get("/toko", 'TokoController@index')->name("toko.index");
+
+Route::get("/toko/create", 'TokoController@create')->name("toko.create");
+
+Route::post("/toko", 'TokoController@store')->name("toko.store");
+
+Route::get("/toko/{id}/edit", 'TokoController@edit')->name("toko.edit");
+
+Route::post("/toko/{id}", 'TokoController@update')->name("toko.update");
+
+Route::get("/toko/{id}/delete", 'TokoController@delete')->name("toko.delete");

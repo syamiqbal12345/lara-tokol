@@ -33,7 +33,7 @@ class UserController extends Controller
     {
 
         $data=$request->all();
-        $data['lavel']='pembeli, toko';
+        $data['lavel']='';
         $user = new User();
         $user->fill($data)->save();
 
