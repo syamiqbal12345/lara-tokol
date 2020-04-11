@@ -20,10 +20,7 @@ class TokoForm extends Form
         ;
 
         $this->add("status", 'choice', [
-            'choices' => [
-                1 => 'Buka',
-                0 => 'Tutup'
-            ]
+            'choices' => ['Buka', 'Tutup' ]
         ])
 
             ->add('Simpan', 'submit')

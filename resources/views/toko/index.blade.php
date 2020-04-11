@@ -15,6 +15,7 @@ btn-primary">Tambah</a>
                     <th>Nama</th>
                     <th>Pemilik</th>
                     <th>Telepon</th>
+                    <th>Alamat</th>
                     <th>Email</th>
                     <th>Status</th>
                 </tr>
@@ -26,6 +27,7 @@ btn-primary">Tambah</a>
                         <td>{{ $toko->nama }}</td>
                         <td>{{ $toko->pemilik }}</td>
                         <td>{{ $toko->telepon }}</td>
+                        <td>{{ $toko->alamat}}</td>
                         <td>{{ $toko->email }}</td>
                         <td>{{ $toko->status }}</td>
                         <td>
