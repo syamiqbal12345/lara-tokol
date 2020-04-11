@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta&display=swap');
+
+/* body {
+   height: 1000px;
+} */
+
+nav {
+   height: 100px;
+}
+
+.mt-100 {
+   margin-top: 100px;
+}
+
+.text-allerta {
+   font-family: 'Allerta', sans-serif;
+}
+
+.index-block .content {
+   position: relative;
+   background: #f8f9fa;
+   z-index: 1;
+   overflow: hidden; 
+}
+ 
+ .index-block .content-left h1 {
+   font-size: 40px;
+   line-height: 46px;
+   color: #343a40;
+   font-weight: 700; 
+}
+ 
+ .index-block .content-left p {
+   color: #343a40;
+   font-size: 16px;
+   line-height: 24px; 
+}
+
+.index-block img {
+   height: 250px;
+}
